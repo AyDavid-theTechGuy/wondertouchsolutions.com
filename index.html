@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1"
+		/>
+		<title>Wondertouch Solutions</title>
+        
+        <!-- ICONS -->
+         <link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
+		/>
+        <link 
+			rel="stylesheet" 
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		>
+
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+        <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scroll-carousel@1.2.7/dist/scroll.carousel.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+		<link
+			rel="stylesheet"
+			href="./style.css"
+			type="text/css"
+		/>
+        
+        <!-- SCRIPTS -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-lg pt-2 pb-2 fixed-top">
+            <div class="container py-0">
+                <a class="navbar-brand d-flex flex-row border-0 py-3 col-denimblue col-denimblue-hover fw-semibold" href="#">
+                    <!-- <span><img src="" alt="Logo"></span> -->
+                    <span class="fs-4">Wondertouch</span>
+                    <span class="fs-4 ps-1">Solutions</span>
+                </a>
+                <button
+                    class="navbar-toggler navbar-menu border-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-0 ms-auto pb-2">
+                        <li class="nav-item my-auto me-3">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item my-auto me-3">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item my-auto me-3">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item my-auto me-3">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link btn-alt bg-denimblue bg-gulfblue-hover text-white rounded-3 px-3 py-2 me-0" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+		
+		<!-- HERO -->
+		<section class="hero mt-5" style="padding-top: 24px;">
+			<div class="container py-5 position-relative">
+				<div class="row py-5">
+					<div class="col-lg-6 col-md-12 my-auto" data-aos="fade-right" data-aos-once="true" data-aos-duration="1800">
+                        <p class="tag-pub text-uppercase d-flex align-items-center rounded-5 width-fit-content bg-lightblue pe-3">
+                            <i class="bi bi-dot fs-1 me-0 col-gulfblue"></i>
+                            <span class="small" style="margin-left: -8px;">Publishing Expert</span>
+                        </p>
+						<h1 class="lh-1">
+                            Turn Your<br>
+                            Book Idea Into<br>
+                            <span 
+                                class="typed-heading col-denimblue" 
+                            >
+                                a
+                                <span id="typing"></span>
+                            </span>
+                        </h1>
+                        <div class="svg-underline-wrapper position-relative">
+                            <svg class="svg-underline" preserveAspectRatio="none" viewBox="0 0 100 10">
+                                <path d="M0 5 Q 50 10 100 5"></path>
+                            </svg>
+                        </div>
+
+                        <p class="col-grayblack lh-sm subtext mt-4">
+                            Comprehensive book project consulting, ghostwriting, and professional editing for thought leaders ready to share their story.
+                        </p>
+
+						<div class="mt-5 pt-3 pb-4 d-block d-sm-flex">
+                            <div data-aos="zoom-in" data-aos-once="true" data-aos-delay="12">
+                                <a
+                                    role="button"
+                                    href="#"
+                                    class="btn-alt fw-semibold bg-denimblue bg-gulfblue-hover text-white rounded-3 d-block d-sm-flex text-center lazy-el"
+                                    >
+                                    <span class="my-auto">Book a Consultation</span>
+                                </a>
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <div data-aos="zoom-in" data-aos-once="true" data-aos-delay="12">
+                                <a
+                                    role="button"
+                                    href="#"
+                                    class="btn-alt fw-semibold bg-fff bg-lightblue-hover col-grayblack border-grayblack rounded-3 d-block d-sm-flex text-center lazy-el"
+                                    >
+                                    <span class="my-auto">View Portfolio</span>
+                                </a>
+                            </div>
+						</div>
+
+                        <div class="d-flex align-items-center gap-2 pt-4">
+                            <div class="avatar-group">
+                                <img src="img/avatar.jpg" alt="">
+                                <img src="img/avatar.jpg" alt="">
+                                <img src="img/avatar.jpg" alt="">
+                            </div>
+
+                            <p class="mb-0">
+                                Trusted by <strong><span class="counter" data-target="100" data-speed="50">0</span>+ Authors</strong>
+                            </p>
+                        </div>
+					</div>
+					<div class="col-lg-6 col-md-12 text-center my-auto">
+                        <img class="w-100 rounded-4 mt-5 mt-lg-0" src="img/blessing-uchenna.jpg" data-aos="zoom-in-up" data-aos-once="true" data-aos-duration="1800" />
+                    </div>
+                </div>
+            </div>
+		</section>
+
+        <!-- CTA 1 SECTION -->
+        <section class="cta1-section">
+            <div class="container text-center" data-aos="zoom-out" data-aos-once="true">
+                <h1 class="fw-semibold col-lightblue">Crafting Stories That Resonate</h1>
+                <p class="fs-5 pt-2 text-white">Whether you're starting from a blank page or refining a final draft, my expertise ensures your voice is heard loud and clear.</p>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services py-5">
+            <div class="container py-5">
+                <div class="row text-center" data-aos="flip-left" data-aos-once="true">
+                    <p class="fw-semibold col-denimblue text-uppercase mb-1 small" style="letter-spacing: 2px;">Our Services</p>
+                    <h1 class="fw-bold">Expert Services</h1>
+                </div>
+                <div class="row g-5 pt-5">
+                    <div class="col-lg-4">
+                        <div class="service-card d-flex flex-column gap-4 rounded-4 bg-white border" data-aos="zoom-in" data-aos-once="true" data-aos-delay="20">
+                            <div class="icon-box d-flex align-items-center justify-content-center text-primary">
+                                <span class="material-symbols-outlined fs-3">lightbulb</span>
+                            </div>
+                            <div>
+                                <h3 class="fw-bold fs-5 mb-3">
+                                    Book Project Consulting
+                                </h3>
+                                <p class="small lh-lg mb-0">
+                                    Strategic guidance to navigate the publishing industry. From concept development to positioning your book for the market.
+                                </p>
+                            </div>
+                            <div class="mt-auto pt-3">
+                                <a href="#" class="learn-more fw-bold small d-inline-flex align-items-center gap-1 text-dark">
+                                    Learn More
+                                    <span class="material-symbols-outlined fs-6">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div class="service-card d-flex flex-column gap-4 rounded-4 bg-white border" data-aos="zoom-in" data-aos-once="true" data-aos-delay="40">
+                            <div class="icon-box d-flex align-items-center justify-content-center text-primary">
+                                <span class="material-symbols-outlined fs-3">history_edu</span>
+                            </div>
+                            <div>
+                                <h3 class="fw-bold fs-5 mb-3">
+                                    Ghostwriting Services
+                                </h3>
+                                <p class="small lh-lg mb-0">
+                                    Capturing your unique voice and transforming your ideas into a compelling narrative while you focus on your business.
+                                </p>
+                            </div>
+                            <div class="mt-auto pt-3">
+                                <a href="#" class="learn-more fw-bold small d-inline-flex align-items-center gap-1 text-dark">
+                                    Learn More
+                                    <span class="material-symbols-outlined fs-6">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="service-card d-flex flex-column gap-4 rounded-4 bg-white border" data-aos="zoom-in" data-aos-once="true" data-aos-delay="60">
+                            <div class="icon-box d-flex align-items-center justify-content-center text-primary">
+                                <span class="material-symbols-outlined fs-3">rate_review</span>
+                            </div>
+                            <div>
+                                <h3 class="fw-bold fs-5 mb-3">
+                                    Editing & Review
+                                </h3>
+                                <p class="small lh-lg mb-0">
+                                    Meticulous line editing and structural review to polish your manuscript to perfection, ready for agents or self-publishing.
+                                </p>
+                            </div>
+                            <div class="mt-auto pt-3">
+                                <a href="#" class="learn-more fw-bold small d-inline-flex align-items-center gap-1 text-dark">
+                                    Learn More
+                                    <span class="material-symbols-outlined fs-6">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEAD EDITOR -->
+        <section class="lead-editor">
+            <div class="container-fluid px-0">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="img/blessing-uchenna2.jpg" class="w-100" data-aos="fade-right" data-aos-once="true" data-aos-duration="1800" />
+                    </div>
+                    <div class="col-lg-6 py-5 py-lg-0 my-auto rt d-flex flex-column align-items-center" data-aos="fade-down" data-aos-once="true" data-aos-duration="1800">
+                        <h1 class="fw-semibold col-denimblue" style="letter-spacing: 1px;">
+                            Meet the<br>
+                            Lead Editor<br>
+                            & Your Partner
+                            <hr classs="mt-3 me-auto">
+                        </h1>
+                        <h3 class="col-denimblue fw-semibold">Blessing Uchenna</h3>
+                        <p class="lh-lg">
+                            With over a decade of experience in the publishing world, I partner with aspiring authors, professionals, and thought leaders to craft stories that resonate.
+                        </p>
+                        <p class="lh-lg">
+                            My approach combines editorial precision with creative strategy. I believe every book has the potential to change lives—starting with the author's. Whether you are looking for a ghostwriter to articulate your vision or an editor to refine your draft, I am here to guide you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- TESTIMONIALS -->
+        <section class="testimonials" style="padding: 100px 0 64px 0;">
+            <div class="container">
+                <div class="d-block d-md-flex mx-3 mx-md-5">
+                    <div data-aos="flip-left" data-aos-once="true" data-aos-duration="1440" >
+                        <p class="small fw-bold text-uppercase col-denimblue mb-1" style="letter-spacing: 1px;">Testimonials</p>
+                        <h1 class="fw-bold">Words from Published Authors</h1>
+                    </div>
+                    <div class="d-flex align-items-center ms-auto slider-controls" data-aos="flip-left" data-aos-once="true" data-aos-duration="1440">
+                        <button class="testimonial-btn rounded-5 me-3" id="customPrev">
+                            <i class="bi bi-arrow-left-short icon-arrow"></i>
+                        </button>
+                        <button class="testimonial-btn rounded-5 ms-3" id="customNext">
+                            <i class="bi bi-arrow-right-short icon-arrow"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="testimonials-slider pt-5 pb-2">
+                    <div class="testimonial-card mx-4 rounded-4 border shadow-sm d-flex flex-column" data-aos="zoom-in" data-aos-once="true">
+                        <i class="bi bi-quote"></i>
+
+                        <div class="mb-4">
+                            <p class="fs-5 fw-medium">
+                            "I had the expertise but struggled to structure it into a book. Wondertouch didn't
+                            just edit; they helped me find the narrative arc that turned my manuscript
+                            into a bestseller."
+                            </p>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3 pt-4 border-top">
+                            <div class="avatar" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCNSNZuBmVGi1ovxDDd8Tl2tjqLB36E_Y6XSzNhENb2ENG5p7JR4r5XrAxSlwbK55ydRFkj-AIIFWo9ua4LaB9NEsqc3pCaAuwiRxeMpyESW6UZv6wuY2h3-NgevXoWNduz6rG_4C2v8UAqtqOVZKF_7VOh8Xdp_a-ffAT7fV6cLCTAolre6keteumWcXAxT-qUz1RI_DFMkl5jy__NCvPnBpWB2P-EeMD_hZ7aNJXcBA5jKPv1UIDEFEdZb2gkbq7O7W-Zkcs6DKs8');"></div>
+
+                            <div>
+                                <h4 class="fw-bold mb-1 fs-6">Elena Rodriguez</h4>
+                                <p class="text-uppercase small fw-medium mb-0 letter-spacing">
+                                    Leadership Coach
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card mx-4 rounded-4 border shadow-sm d-flex flex-column" data-aos="zoom-in" data-aos-once="true">
+                        <i class="bi bi-quote"></i>
+
+                        <div class="mb-4">
+                            <p class="fs-5 fw-medium">
+                            "Ghostwriting requires a deep level of trust and understanding. Wondertouch captured my voice so perfectly that even my closest colleagues couldn't tell where I stopped and she began."
+                            </p>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3 pt-4 border-top">
+                            <div class="avatar" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAqkOd0F0l3Wt9hIWLkOhFw33a5cL--XBhohrIubOMmeGWY3wdh6CBwbRqFQZMT4EsRxR95Leq_oIpfa8VNOAXue64nd-rKjGDLwalnDc1Se_jyiJCf5pTVhitvO3ZDlsWCz1qZRcyV53A-RL8b9V9ehEDgQno7dWXzJw88eqU16oDXn4PI9RxtDk0xN-Z5dzWyAzYjmbtYLg9Noe-jljsWlVJpyvYsW9DafeTZTE3bxzkwc-4ofAISAUmeACDEcdUAN04MV47azXPn');"></div>
+
+                            <div>
+                                <h4 class="fw-bold mb-1 fs-6">Marcus Thorne</h4>
+                                <p class="text-uppercase small fw-medium mb-0 letter-spacing">
+                                    CEO, FinTech Global
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card mx-4 rounded-4 border shadow-sm d-flex flex-column" data-aos="zoom-in" data-aos-once="true">
+                        <i class="bi bi-quote"></i>
+
+                        <div class="mb-4">
+                            <p class="fs-5 fw-medium">
+                            "From the initial consultation to the final manuscript review, the process was professional, insightful, and incredibly empowering. I'm finally a published author!"
+                            </p>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3 pt-4 border-top">
+                            <div class="avatar" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB7et5jbEFMn8omSf-kcpQv1p96KnjksxEwrTiGNr_aBNhoDt5biDdp91OeLkl1lGcfZAWMbJSOJtc-He3Y9DiP5jmAgPzbszpaQOLD6APzZ8cHxq9LaTsLOO8gYqDg8X-TRvJfy1GmahNo2W_ThDi3nvOG_xmDsMTRUTWHJv9bQ6Zqur2Xuvfgdvoh1Nn0dobmI5X5XU1YpJwBwvR6g65Vmz_TtTHuyq-zB9AYQnYLuiYDxROB-xeE_EIWygh-_hFy61cceQjhBOq2');"></div>
+
+                            <div>
+                                <h4 class="fw-bold mb-1 fs-6">Thomas Alverez</h4>
+                                <p class="text-uppercase small fw-medium mb-0 letter-spacing">
+                                    Memoirist
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+        <script>
+            // Slick Slider
+            $('.testimonials-slider').slick({
+                arrows: false,
+                dots: true,
+                appendDots: false,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    }
+                }
+                ]
+            });
+
+            $('#customPrev').on('click', function() {
+                $('.testimonials-slider').slick('slickPrev');
+            });
+
+            $('#customNext').on('click', function() {
+                $('.testimonials-slider').slick('slickNext');
+            });
+        </script>
+
+
+        <!-- EDITED-BOOKS SCROLL CAROUSEL -->
+        <section class="bg-gulfblue" style="padding: 64px 0;">
+            <div class="pb-4 text-center" data-aos="flip-left" data-aos-once="true" data-aos-duration="1440">
+                <h1 class="fw-bold text-white">Some of Our Polished Books</h1>
+            </div>
+            <div class="edited-books-carousel">
+                <div class="my-slide px-2">
+                    <img class="rounded-5 w-100" src="img/book-ability-without-character.jpg" />
+                </div>
+                <div class="my-slide px-2">
+                    <img class="rounded-5 w-100" src="img/book-embracing-your-path.jpg" />
+                </div>
+                <div class="my-slide px-2">
+                    <img class="rounded-5 w-100" src="img/book-evangelism-soul-winning-and-discipleship.jpg" />
+                </div>
+                <div class="my-slide px-2">
+                    <img class="rounded-5 w-100" src="img/book-positioning-for-profit.jpg" />
+                </div>
+                <div class="my-slide px-2">
+                    <img class="rounded-5 w-100" src="img/book-the-riches-in-the-niches.jpg" />
+                </div>
+                <div class="my-slide px-2">
+                    <img class="rounded-5 w-100" src="img/book-when-love-relocates.jpg" />
+                </div>
+                <div class="my-slide px-2">
+                    <img class="rounded-5 w-100" src="img/book-you-were-born-with-a-purpose.jpg" />
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/scroll-carousel@1.2.7/dist/scroll.carousel.min.js"></script>
+        <script>
+            new ScrollCarousel(".edited-books-carousel", {autoplay: true, speed: 1});
+        </script>
+
+
+        <!-- PUBLICATION JOURNEY -->
+        <section class="publication-journey" style="padding: 88px 0 64px 0;">
+            <div class="container">
+                <div class="row text-center pb-5" data-aos="zoom-in" data-aos-once="true">
+                    <h1 class="fw-bold">The Journey to Publication</h1>
+                    <p class="col-grayblack px-5">A structured four-step process designed to take you from a scattered idea to a polished book in your hands.</p>
+                </div>
+
+                <div class="process-wrapper position-relative">
+                    <div class="process-line d-none d-md-block"></div>
+
+                    <div class="row g-4 position-relative z-1 text-center">
+                        <!-- Step 1 -->
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="process-card p-4 rounded-3" data-aos="zoom-in" data-aos-once="true">
+                                <div class="step-circle mb-4">01</div>
+                                <h3 class="fw-bold mb-2">Discovery</h3>
+                                <p class="text-muted small">
+                                We define your goals, target audience, and core message to build a solid foundation.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="process-card p-4 rounded-3" data-aos="zoom-in" data-aos-once="true">
+                                <div class="step-circle mb-4">02</div>
+                                <h3 class="fw-bold mb-2">Drafting</h3>
+                                <p class="text-muted small">
+                                Writing the manuscript, chapter by chapter, ensuring consistency and flow.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="process-card p-4 rounded-3" data-aos="zoom-in" data-aos-once="true">
+                                <div class="step-circle mb-4">03</div>
+                                <h3 class="fw-bold mb-2">Refining</h3>
+                                <p class="text-muted small">
+                                Deep editing phases to polish the prose, sharpen arguments, and fix structure.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="process-card p-4 rounded-3" data-aos="zoom-in" data-aos-once="true">
+                                <div class="step-circle step-done mb-4">
+                                <span class="material-symbols-outlined">check</span>
+                                </div>
+                                <h3 class="fw-bold mb-2">Publishing</h3>
+                                <p class="text-muted small">
+                                Final formatting and preparing your masterpiece for the world to see.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CTA 2 SECTION -->
+		<section class="cta2-section" style="padding: 44px 0 88px 0;">
+			<div class="container">
+                <div class="row bg-gulfblue rounded-5 text-center px-4 px-md-5 py-5 mx-2 mx-md-5 position-relative" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1440">
+                    <div class="position-absolute glow-circle"></div>
+
+                    <h2 class="text-white fw-bold mb-4">Ready to start your book journey?</h2>
+                    <p class="fs-5 text-white-50 px-2 px-md-5">
+                        Don't let your story remain untold. Schedule a free 30-minute discovery call to discuss your book idea and how we can bring it to life.
+                    </p>
+                
+                    <div class="pt-4 pb-3 d-block d-md-flex justify-content-center">
+                        <div>
+                            <a
+                                role="button"
+                                href="#"
+                                class="btn-alt fw-semibold bg-denimblue border-denimblue bg-gulfblue-hover border-lightblue-hover text-white rounded-3 d-block d-md-flex lazy-el"
+                                >
+                                <span class="my-auto">Schedule Discovery Call</span>
+                            </a>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <div>
+                            <a
+                                role="button"
+                                href="#"
+                                class="btn-alt fw-semibold col-lightblue border-lightblue bg-lightblue-hover col-gulfblue-hover rounded-3 d-block d-md-flex lazy-el"
+                                >
+                                <span class="my-auto">View Packages</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</section>
+        
+		<!-- FOOTER -->
+		<footer class="footer pt-5" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1440">
+            <div class="container">
+                <div class="row pb-3">
+                    <div class="col-lg-3">
+                        <h3 class="col-denimblue fw-bold">Wondertouch<br>Solutions</h3>
+                        <p>Helping authors find their voice and share their wisdom with the world.</p>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-2">
+                        <h6 class="fw-bold pb-2">Services</h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">Book Consulting</a>
+                            </li>
+                            <li>
+                                <a href="#">Ghostwriting</a>
+                            </li>
+                            <li>
+                                <a href="#">Manuscript Review</a>
+                            </li>
+                            <li>
+                                <a href="#">Copy Editing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6 class="fw-bold pb-2">Company</h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Process</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6 class="fw-bold pb-2">Newsletter</h6>
+                        <p class="small">Get writing tips and industry insights delivered to your inbox.</p>
+                        <form class="footer-subscribe">
+                            <input
+                                type="email"
+                                class="form-control mb-3 footer-input"
+                                placeholder="Your email address"
+                                required
+                            >
+                            <button class="btn-alt text-white fw-semibold bg-denimblue bg-gulfblue-hover border-0 rounded-3 w-100" type="submit">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <div class="text-center py-2">
+                    <p class="small">© 2026 Wondertouch Solutions. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+		<script>
+            // Stats Counter
+            const counters= document.querySelectorAll('.counter');
+            const countUp = (counter) => {
+                const target = +counter.dataset.target;
+                const speed = +counter.dataset.speed;
+                let count = 0;
+                const increment = target / speed;
+
+                const update = () => {
+                count += increment;
+                if (count < target) {
+                    counter.innerText = Math.ceil(count);
+                    requestAnimationFrame(update);
+                } else {
+                    counter.innerText = target;
+                }
+                };
+
+                update();
+            };
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
+                    entry.target.classList.add('counted');
+                    countUp(entry.target);
+                }
+                });
+            }, {
+                threshold: 0.6 // trigger when 60% visible
+            });
+
+            counters.forEach(counter => {
+                observer.observe(counter);
+            });
+
+            // Typing Effect 
+            var typed = new Typed('#typing', {
+              strings: ['Masterpiece', 'Page–turner', 'Flawless Story'],
+              typeSpeed: 100,
+              backSpeed: 40,
+              loop: true
+            });  
+        </script> 
+
+        <script>
+            AOS.init();
+        </script>
+
+        <script>
+            // Lazy Loading
+            document.addEventListener("DOMContentLoaded", function() {
+                const lazyCards = document.querySelectorAll('.lazy-el');
+
+                const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target); 
+                    }
+                });
+                }, {
+                    threshold: 0.24
+                });
+
+                lazyCards.forEach(card => {
+                    observer.observe(card);
+                });
+            });
+        </script>
+	</body>
+</html>
